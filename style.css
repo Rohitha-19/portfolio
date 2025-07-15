@@ -120,14 +120,10 @@ body{
         padding:15px;
     }
     .about{
-        width: 100%;
-        padding: 20px;
+        flex-direction: column;
     }
-    .para{
-        text-align: justify;
-        width: 95%;
-        padding: 20px;
-        line-height: 1.5;
+    .about-me{
+        flex-direction:column;
     }
     .details{ 
         justify-content: center;
@@ -177,27 +173,22 @@ body{
     text-decoration: none;
     transition: 0.1s ease;
 }
-.about{
-    margin-bottom: 40px;
-    width: 100%;
-    background-color: blueviolet;
-    padding: 30px;
-}
 .about-me{
     text-align: center;
-    color: white;
+    color: black;
+    background-color: blueviolet;
     font-size: 30px;
     padding: 10px;
 }
 .about-me:hover{
     text-decoration: underline;
 }  
-.para{
-    text-align: justify;
-    font-weight:bold;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+.about{
+    font-size: large;
+    font-weight:30px;
+    gap: 50px;
+    background-color: blueviolet;
+    margin-bottom: 40px;
     padding: 70px;
 }
 .edu{
