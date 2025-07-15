@@ -120,10 +120,8 @@ body{
         padding:15px;
     }
     .about{
-        flex-direction: column;
         width: 100%;
         padding: 20px;
-        height: auto;
     }
     .para{
         text-align: justify;
