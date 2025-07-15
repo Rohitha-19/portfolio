@@ -125,7 +125,9 @@ body{
     }
     .para{
         text-align: justify;
-        width: 100%;
+        width: 95%;
+        padding: 20px;
+        line-height: 1.5;
     }
     .details{ 
         justify-content: center;
@@ -193,9 +195,9 @@ body{
 .para{
     text-align: justify;
     font-weight:bold;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     padding: 70px;
 }
 .edu{
