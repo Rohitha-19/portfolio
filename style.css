@@ -121,6 +121,8 @@ body{
     }
     .about{
         flex-direction: column;
+        width: 100%;
+        height: auto;
     }
     .details{ 
         justify-content: center;
@@ -139,6 +141,10 @@ body{
         justify-content: center;
         align-items: center;
         width: 100%;
+    }
+    .swiper-slide img{
+        width: 100%;
+        height: auto;
     }
 }
 .qualification{
@@ -298,12 +304,21 @@ body{
     text-align: center;
     justify-content: center;
     padding: 50px;
-    
 }
 .swiper-slide img{
-    width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
+    width: 340px;
+    height: 200px;
+}
+.proname{
+    padding-bottom: 25px;
+}
+.prodes{
+    padding-bottom: 30px;
+}
+.tech-stack{
+    font-weight: bold;
 }
 .contact h3{
     font-size: 25px;
