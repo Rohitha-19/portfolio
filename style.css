@@ -122,7 +122,12 @@ body{
     .about{
         flex-direction: column;
         width: 100%;
+        padding: 20px;
         height: auto;
+    }
+    .para{
+        text-align: justify;
+        width: 100%;
     }
     .details{ 
         justify-content: center;
@@ -174,6 +179,7 @@ body{
 }
 .about{
     margin-bottom: 40px;
+    width: 100%;
     background-color: blueviolet;
     padding: 30px;
 }
@@ -187,7 +193,7 @@ body{
     text-decoration: underline;
 }  
 .para{
-    text-align: center;
+    text-align: justify;
     font-weight:bold;
     text-align: center;
     justify-content: center;
